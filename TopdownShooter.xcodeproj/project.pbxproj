@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6D5AE051595F1620082B100 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE041595F1620082B100 /* UIKit.framework */; };
+		E6D5AE071595F1620082B100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE061595F1620082B100 /* Foundation.framework */; };
+		E6D5AE091595F1620082B100 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE081595F1620082B100 /* CoreGraphics.framework */; };
+		E6D5AE0F1595F1620082B100 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6D5AE0D1595F1620082B100 /* InfoPlist.strings */; };
+		E6D5AE111595F1620082B100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D5AE101595F1620082B100 /* main.m */; };
+		E6D5AE151595F1620082B100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D5AE141595F1620082B100 /* AppDelegate.m */; };
+		E6D5AE1D1595F1620082B100 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE1C1595F1620082B100 /* SenTestingKit.framework */; };
+		E6D5AE1E1595F1620082B100 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE041595F1620082B100 /* UIKit.framework */; };
+		E6D5AE1F1595F1620082B100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE061595F1620082B100 /* Foundation.framework */; };
+		E6D5AE271595F1620082B100 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6D5AE251595F1620082B100 /* InfoPlist.strings */; };
+		E6D5AE2A1595F1620082B100 /* TopdownShooterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D5AE291595F1620082B100 /* TopdownShooterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6D5AE201595F1620082B100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D5ADF71595F1610082B100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D5ADFF1595F1610082B100;
+			remoteInfo = TopdownShooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6D5AE001595F1610082B100 /* TopdownShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopdownShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D5AE041595F1620082B100 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6D5AE061595F1620082B100 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6D5AE081595F1620082B100 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6D5AE0C1595F1620082B100 /* TopdownShooter-Info.plist */ = {isa = PBXFileReference; path = "TopdownShooter-Info.plist"; sourceTree = "<group>"; };
+		E6D5AE0E1595F1620082B100 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6D5AE101595F1620082B100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6D5AE121595F1620082B100 /* TopdownShooter-Prefix.pch */ = {isa = PBXFileReference; path = "TopdownShooter-Prefix.pch"; sourceTree = "<group>"; };
+		E6D5AE131595F1620082B100 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6D5AE141595F1620082B100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6D5AE1B1595F1620082B100 /* TopdownShooterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopdownShooterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D5AE1C1595F1620082B100 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6D5AE241595F1620082B100 /* TopdownShooterTests-Info.plist */ = {isa = PBXFileReference; path = "TopdownShooterTests-Info.plist"; sourceTree = "<group>"; };
+		E6D5AE261595F1620082B100 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6D5AE281595F1620082B100 /* TopdownShooterTests.h */ = {isa = PBXFileReference; path = TopdownShooterTests.h; sourceTree = "<group>"; };
+		E6D5AE291595F1620082B100 /* TopdownShooterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopdownShooterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D5ADFD1595F1610082B100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D5AE051595F1620082B100 /* UIKit.framework in Frameworks */,
+				E6D5AE071595F1620082B100 /* Foundation.framework in Frameworks */,
+				E6D5AE091595F1620082B100 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D5AE171595F1620082B100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D5AE1D1595F1620082B100 /* SenTestingKit.framework in Frameworks */,
+				E6D5AE1E1595F1620082B100 /* UIKit.framework in Frameworks */,
+				E6D5AE1F1595F1620082B100 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6D5ADF51595F1610082B100 = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE0A1595F1620082B100 /* TopdownShooter */,
+				E6D5AE221595F1620082B100 /* TopdownShooterTests */,
+				E6D5AE031595F1620082B100 /* Frameworks */,
+				E6D5AE011595F1610082B100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D5AE011595F1610082B100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE001595F1610082B100 /* TopdownShooter.app */,
+				E6D5AE1B1595F1620082B100 /* TopdownShooterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D5AE031595F1620082B100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE041595F1620082B100 /* UIKit.framework */,
+				E6D5AE061595F1620082B100 /* Foundation.framework */,
+				E6D5AE081595F1620082B100 /* CoreGraphics.framework */,
+				E6D5AE1C1595F1620082B100 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6D5AE0A1595F1620082B100 /* TopdownShooter */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE131595F1620082B100 /* AppDelegate.h */,
+				E6D5AE141595F1620082B100 /* AppDelegate.m */,
+				E6D5AE0B1595F1620082B100 /* Supporting Files */,
+			);
+			path = TopdownShooter;
+			sourceTree = "<group>";
+		};
+		E6D5AE0B1595F1620082B100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE0C1595F1620082B100 /* TopdownShooter-Info.plist */,
+				E6D5AE0D1595F1620082B100 /* InfoPlist.strings */,
+				E6D5AE101595F1620082B100 /* main.m */,
+				E6D5AE121595F1620082B100 /* TopdownShooter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6D5AE221595F1620082B100 /* TopdownShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE281595F1620082B100 /* TopdownShooterTests.h */,
+				E6D5AE291595F1620082B100 /* TopdownShooterTests.m */,
+				E6D5AE231595F1620082B100 /* Supporting Files */,
+			);
+			path = TopdownShooterTests;
+			sourceTree = "<group>";
+		};
+		E6D5AE231595F1620082B100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5AE241595F1620082B100 /* TopdownShooterTests-Info.plist */,
+				E6D5AE251595F1620082B100 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D5ADFF1595F1610082B100 /* TopdownShooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D5AE2D1595F1620082B100 /* Build configuration list for PBXNativeTarget "TopdownShooter" */;
+			buildPhases = (
+				E6D5ADFC1595F1610082B100 /* Sources */,
+				E6D5ADFD1595F1610082B100 /* Frameworks */,
+				E6D5ADFE1595F1610082B100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopdownShooter;
+			productName = TopdownShooter;
+			productReference = E6D5AE001595F1610082B100 /* TopdownShooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6D5AE1A1595F1620082B100 /* TopdownShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D5AE301595F1620082B100 /* Build configuration list for PBXNativeTarget "TopdownShooterTests" */;
+			buildPhases = (
+				E6D5AE161595F1620082B100 /* Sources */,
+				E6D5AE171595F1620082B100 /* Frameworks */,
+				E6D5AE181595F1620082B100 /* Resources */,
+				E6D5AE191595F1620082B100 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D5AE211595F1620082B100 /* PBXTargetDependency */,
+			);
+			name = TopdownShooterTests;
+			productName = TopdownShooterTests;
+			productReference = E6D5AE1B1595F1620082B100 /* TopdownShooterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D5ADF71595F1610082B100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E6D5ADFA1595F1610082B100 /* Build configuration list for PBXProject "TopdownShooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6D5ADF51595F1610082B100;
+			productRefGroup = E6D5AE011595F1610082B100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D5ADFF1595F1610082B100 /* TopdownShooter */,
+				E6D5AE1A1595F1620082B100 /* TopdownShooterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D5ADFE1595F1610082B100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D5AE0F1595F1620082B100 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D5AE181595F1620082B100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D5AE271595F1620082B100 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6D5AE191595F1620082B100 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D5ADFC1595F1610082B100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D5AE111595F1620082B100 /* main.m in Sources */,
+				E6D5AE151595F1620082B100 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D5AE161595F1620082B100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D5AE2A1595F1620082B100 /* TopdownShooterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6D5AE211595F1620082B100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D5ADFF1595F1610082B100 /* TopdownShooter */;
+			targetProxy = E6D5AE201595F1620082B100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6D5AE0D1595F1620082B100 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D5AE0E1595F1620082B100 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6D5AE251595F1620082B100 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D5AE261595F1620082B100 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6D5AE2B1595F1620082B100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6D5AE2C1595F1620082B100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6D5AE2E1595F1620082B100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopdownShooter/TopdownShooter-Prefix.pch";
+				INFOPLIST_FILE = "TopdownShooter/TopdownShooter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6D5AE2F1595F1620082B100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopdownShooter/TopdownShooter-Prefix.pch";
+				INFOPLIST_FILE = "TopdownShooter/TopdownShooter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6D5AE311595F1620082B100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopdownShooter.app/TopdownShooter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopdownShooter/TopdownShooter-Prefix.pch";
+				INFOPLIST_FILE = "TopdownShooterTests/TopdownShooterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E6D5AE321595F1620082B100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TopdownShooter.app/TopdownShooter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopdownShooter/TopdownShooter-Prefix.pch";
+				INFOPLIST_FILE = "TopdownShooterTests/TopdownShooterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D5ADFA1595F1610082B100 /* Build configuration list for PBXProject "TopdownShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D5AE2B1595F1620082B100 /* Debug */,
+				E6D5AE2C1595F1620082B100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D5AE2D1595F1620082B100 /* Build configuration list for PBXNativeTarget "TopdownShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D5AE2E1595F1620082B100 /* Debug */,
+				E6D5AE2F1595F1620082B100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6D5AE301595F1620082B100 /* Build configuration list for PBXNativeTarget "TopdownShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D5AE311595F1620082B100 /* Debug */,
+				E6D5AE321595F1620082B100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6D5ADF71595F1610082B100 /* Project object */;
+}
