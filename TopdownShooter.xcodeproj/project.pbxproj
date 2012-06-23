@@ -35,17 +35,17 @@
 		E6D5AE041595F1620082B100 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6D5AE061595F1620082B100 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6D5AE081595F1620082B100 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E6D5AE0C1595F1620082B100 /* TopdownShooter-Info.plist */ = {isa = PBXFileReference; path = "TopdownShooter-Info.plist"; sourceTree = "<group>"; };
+		E6D5AE0C1595F1620082B100 /* TopdownShooter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopdownShooter-Info.plist"; sourceTree = "<group>"; };
 		E6D5AE0E1595F1620082B100 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6D5AE101595F1620082B100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E6D5AE121595F1620082B100 /* TopdownShooter-Prefix.pch */ = {isa = PBXFileReference; path = "TopdownShooter-Prefix.pch"; sourceTree = "<group>"; };
-		E6D5AE131595F1620082B100 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6D5AE121595F1620082B100 /* TopdownShooter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopdownShooter-Prefix.pch"; sourceTree = "<group>"; };
+		E6D5AE131595F1620082B100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6D5AE141595F1620082B100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E6D5AE1B1595F1620082B100 /* TopdownShooterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopdownShooterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D5AE1C1595F1620082B100 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E6D5AE241595F1620082B100 /* TopdownShooterTests-Info.plist */ = {isa = PBXFileReference; path = "TopdownShooterTests-Info.plist"; sourceTree = "<group>"; };
+		E6D5AE241595F1620082B100 /* TopdownShooterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopdownShooterTests-Info.plist"; sourceTree = "<group>"; };
 		E6D5AE261595F1620082B100 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E6D5AE281595F1620082B100 /* TopdownShooterTests.h */ = {isa = PBXFileReference; path = TopdownShooterTests.h; sourceTree = "<group>"; };
+		E6D5AE281595F1620082B100 /* TopdownShooterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopdownShooterTests.h; sourceTree = "<group>"; };
 		E6D5AE291595F1620082B100 /* TopdownShooterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopdownShooterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
