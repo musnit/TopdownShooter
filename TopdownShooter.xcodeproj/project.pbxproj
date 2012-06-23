@@ -345,6 +345,7 @@
 				GCC_PREFIX_HEADER = "TopdownShooter/TopdownShooter-Prefix.pch";
 				INFOPLIST_FILE = "TopdownShooter/TopdownShooter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -356,6 +357,7 @@
 				GCC_PREFIX_HEADER = "TopdownShooter/TopdownShooter-Prefix.pch";
 				INFOPLIST_FILE = "TopdownShooter/TopdownShooter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,6 +415,7 @@
 				E6D5AE2F1595F1620082B100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6D5AE301595F1620082B100 /* Build configuration list for PBXNativeTarget "TopdownShooterTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +424,7 @@
 				E6D5AE321595F1620082B100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
