@@ -7,18 +7,43 @@
 //
 
 #import "AppDelegate.h"
+#import "MainMenuViewController.h"
+#import "GameViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize mainMenuVC = _mainMenuVC;
+@synthesize gameVC = _gameVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self mainMenu:nil ];
+
+    [application setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void) startGame:(id)sender{
+    self.mainMenuVC=nil;
+    self.gameVC = [[GameViewController alloc] init ];
+    self.gameVC.app=self;
+    self.window.rootViewController = self.gameVC;
+    
+}
+
+-(void) mainMenu:(id)sender{
+    self.gameVC=nil;
+    self.mainMenuVC = [[MainMenuViewController alloc] init ];
+    self.mainMenuVC.app=self;
+    self.window.rootViewController = self.mainMenuVC;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
