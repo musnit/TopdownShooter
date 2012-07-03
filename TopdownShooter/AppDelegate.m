@@ -33,7 +33,6 @@
 -(void) startGame:(id)sender{
     self.mainMenuVC=nil;
     self.gameVC = [[GameViewController alloc] init ];
-    self.gameVC.app=self;
     self.window.rootViewController = self.gameVC;
     
 }
@@ -41,7 +40,6 @@
 -(void) mainMenu:(id)sender{
     self.gameVC=nil;
     self.mainMenuVC = [[MainMenuViewController alloc] init ];
-    self.mainMenuVC.app=self;
     self.window.rootViewController = self.mainMenuVC;
     
 }

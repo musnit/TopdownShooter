@@ -6,11 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-@class AppDelegate;
+#import <GLKit/GLKit.h>
 
-@interface GameViewController : UIViewController
+@interface GameViewController : GLKViewController
 
-//@property(weak, nonatomic) AppDelegate* app;
 
 @end

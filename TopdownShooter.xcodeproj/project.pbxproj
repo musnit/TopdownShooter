@@ -11,6 +11,9 @@
 		E67F10CD159A650000154745 /* monster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E67F10CC159A650000154745 /* monster.jpg */; };
 		E67F10D3159AAC0D00154745 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67F10D2159AAC0D00154745 /* GameViewController.m */; };
 		E67F10D5159AAC6200154745 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E67F10D4159AAC6200154745 /* close.png */; };
+		E68C39C015A362A800EBE385 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68C39BF15A362A800EBE385 /* OpenGLES.framework */; };
+		E68C39C315A362AC00EBE385 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68C39C215A362AC00EBE385 /* GLKit.framework */; };
+		E68C39C515A362B200EBE385 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68C39C415A362B200EBE385 /* QuartzCore.framework */; };
 		E6D5AE051595F1620082B100 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE041595F1620082B100 /* UIKit.framework */; };
 		E6D5AE071595F1620082B100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE061595F1620082B100 /* Foundation.framework */; };
 		E6D5AE091595F1620082B100 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5AE081595F1620082B100 /* CoreGraphics.framework */; };
@@ -38,9 +41,12 @@
 		E67F10C8159A5FF900154745 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		E67F10C9159A5FF900154745 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		E67F10CC159A650000154745 /* monster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monster.jpg; sourceTree = "<group>"; };
-		E67F10D1159AAC0D00154745 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E67F10D1159AAC0D00154745 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = GameViewController.h; sourceTree = "<group>"; };
 		E67F10D2159AAC0D00154745 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		E67F10D4159AAC6200154745 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		E68C39BF15A362A800EBE385 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E68C39C215A362AC00EBE385 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E68C39C415A362B200EBE385 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E6D5AE001595F1610082B100 /* TopdownShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopdownShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D5AE041595F1620082B100 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6D5AE061595F1620082B100 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68C39C515A362B200EBE385 /* QuartzCore.framework in Frameworks */,
+				E68C39C315A362AC00EBE385 /* GLKit.framework in Frameworks */,
+				E68C39C015A362A800EBE385 /* OpenGLES.framework in Frameworks */,
 				E6D5AE051595F1620082B100 /* UIKit.framework in Frameworks */,
 				E6D5AE071595F1620082B100 /* Foundation.framework in Frameworks */,
 				E6D5AE091595F1620082B100 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +115,9 @@
 		E6D5ADF51595F1610082B100 = {
 			isa = PBXGroup;
 			children = (
+				E68C39C415A362B200EBE385 /* QuartzCore.framework */,
+				E68C39C215A362AC00EBE385 /* GLKit.framework */,
+				E68C39BF15A362A800EBE385 /* OpenGLES.framework */,
 				E6D5AE0A1595F1620082B100 /* TopdownShooter */,
 				E6D5AE221595F1620082B100 /* TopdownShooterTests */,
 				E6D5AE031595F1620082B100 /* Frameworks */,

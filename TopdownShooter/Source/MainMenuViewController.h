@@ -7,9 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-@class AppDelegate;
 @interface MainMenuViewController : UIViewController
-
-//@property(weak, nonatomic) AppDelegate* app;
 
 @end

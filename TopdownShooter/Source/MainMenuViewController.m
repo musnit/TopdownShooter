@@ -11,7 +11,6 @@
 
 @implementation MainMenuViewController
 
-@synthesize app=_app;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,7 +29,7 @@
     [start setImage:[UIImage imageNamed:@"monster.jpg"] forState:UIControlStateNormal];
     [start setFrame:CGRectMake(300, 100, 100, 100)];
     [start setContentMode:UIViewContentModeScaleToFill];
-    [start addTarget:self.app action:@selector(startGame:) forControlEvents:UIControlEventTouchUpInside];
+    [start addTarget:(AppDelegate *)[[UIApplication sharedApplication] delegate] action:@selector(startGame:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:start];
     
 }
